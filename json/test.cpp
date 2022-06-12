@@ -12,4 +12,5 @@ int main()
 	reading >> reader;
 
 	std::cout << reader["information"][0]["nitro"][0]["remaining month(s)"] << std::endl;
+	std::cout << reader["guild_id"];
 }
